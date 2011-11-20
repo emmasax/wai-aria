@@ -1,0 +1,140 @@
+body, h1, h2, h3, h4, h5, p
+  margin: 0
+  padding: 0
+
+body
+  background-color: #eee
+  color: #555
+  font-family: Helvetica, Arial, sans-serif
+  font-size: 14px
+
+h1, h2
+  font-family: 'Amaranth', sans-serif
+
+h1
+  color: #333
+  text-shadow: 1px 1px 1px #000
+  font-size: 43px
+
+h2
+  font-size: 24px
+  font-weight: 900
+
+a
+  color: #0091EB
+  text-decoration: none
+  &:hover
+  
+    text-decoration: underline
+  &:visited
+    color: #900
+
+header
+  background-color: #333
+  border-bottom: 10px dotted #007bc7
+  overflow: hidden
+  padding: 20px 30px
+  margin-bottom: 20px
+  h1
+    color: #fff
+    span
+      font-size: 55px
+      display: block
+  p
+    color: #ddd
+    font-size: 16px
+    line-height: 21px
+    margin-bottom: 20px
+    float: left
+
+header h1, section.main
+  float: left
+  width: 66%
+  margin-right: 3%
+
+ul
+  margin: 0
+  padding: 0
+  li
+    list-style-type: none
+
+  
+section.main
+  margin: 10px 0 0 3%
+  
+  .posts
+    h2
+      margin-bottom: 15px
+    li
+      background-color: #fff
+      margin-bottom: 30px
+      padding: 15px
+      margin-right: 6%
+      p:last-child
+        a
+          // border: 1px solid #bbb
+          // border-radius: 15px
+          // font-size: 12px
+          // font-weight: bold
+          // box-shadow: 2px 1px 2px #777
+          // color: #444
+          // padding: 5px 9px
+          display: inline-block
+          margin: 15px 0 5px
+          // &:hover
+          //   text-decoration: none
+          //   background-color: #f2f2f2
+          // &:active
+          //   position: relative
+          //   top: 1px
+          //   background-color: #444
+          //   color: #fff
+        
+  .tags
+    overflow: hidden
+    li
+      box-shadow: none
+      float: left
+      margin-bottom: 0
+      margin-right: 10px
+
+aside, header p
+  float: left
+  width: 28%
+
+aside
+  p, ul
+    margin-bottom: 20px
+  
+  h2
+    font-family: Helvetica, Arial, sans-serif
+    margin-bottom: 5px
+    font-weight: normal
+    font-size: 18px
+  .jump
+    li
+      background: url(images/arrow-right.png) no-repeat 0 0
+      padding-left: 25px
+      padding-bottom: 10px
+      padding-top: 2px
+  .official
+    // margin-left: 10px
+    li
+      background: url(images/article.png) no-repeat 0 0
+      font-size: 16px
+      padding-left: 25px
+      padding-bottom: 10px
+      padding-top: 2px
+
+footer
+  background-color: #333
+  border-top: 10px solid #555
+  clear: both
+  padding: 20px 20px 40px
+  p, a, a:visited
+    color: #fff
+  p
+    text-align: center
+  
+  
+  

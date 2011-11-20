@@ -1,0 +1,123 @@
+body, h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f2f2f2;
+  color: #555555;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+h1, h2 {
+  font-family: "Amaranth", sans-serif; }
+
+h1 {
+  color: #333333;
+  text-shadow: 1px 1px 1px black;
+  font-size: 43px; }
+
+h2 {
+  font-size: 24px;
+  font-weight: 900; }
+
+a {
+  color: #0091eb;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+  a:visited {
+    color: #990000; }
+
+header {
+  background-color: #333333;
+  border-bottom: 10px dotted #007bc7;
+  overflow: hidden;
+  padding: 20px 30px;
+  margin-bottom: 20px; }
+  header h1 {
+    color: white; }
+  header p {
+    color: #dddddd;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    float: left; }
+
+header h1, section.main {
+  float: left;
+  width: 66%;
+  margin-right: 3%; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style-type: none; }
+
+section.main {
+  margin: 10px 0 0 3%; }
+  section.main .posts h2 {
+    margin-bottom: 15px; }
+  section.main .posts li {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-right: 6%; }
+    section.main .posts li p a {
+      border: 1px solid #bbbbbb;
+      border-radius: 15px;
+      font-size: 12px;
+      font-weight: bold;
+      box-shadow: 2px 1px 2px #777777;
+      color: #444444;
+      padding: 5px 9px;
+      display: inline-block;
+      margin: 15px 0 0; }
+      section.main .posts li p a:hover {
+        text-decoration: none;
+        background-color: #f2f2f2; }
+      section.main .posts li p a:active {
+        position: relative;
+        top: 1px;
+        background-color: #444444;
+        color: white; }
+  section.main .tags {
+    overflow: hidden; }
+    section.main .tags li {
+      box-shadow: none;
+      float: left;
+      margin-bottom: 0;
+      margin-right: 10px; }
+
+aside, header p {
+  float: left;
+  width: 28%; }
+
+aside p, aside ul {
+  margin-bottom: 20px; }
+aside h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 18px; }
+aside .jump li {
+  background: url(../images/arrow-right.png) no-repeat 0 0;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  padding-top: 2px; }
+aside .official li {
+  background: url(../images/article.png) no-repeat 0 0;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  padding-top: 2px; }
+
+footer {
+  background-color: #333333;
+  border-top: 10px solid #555555;
+  clear: both;
+  padding: 20px 20px 40px; }
+  footer p, footer a, footer a:visited {
+    color: white; }
+  footer p {
+    text-align: center; }
