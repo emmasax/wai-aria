@@ -3,7 +3,7 @@ body, h1, h2, h3, h4, h5, p
   padding: 0
 
 body
-  background-color: #eee
+  background-color: #ddd
   color: #555
   font-family: Helvetica, Arial, sans-serif
   font-size: 14px
@@ -13,8 +13,9 @@ h1, h2
 
 h1
   color: #333
-  text-shadow: 1px 1px 1px #000
+  text-shadow: 1px 1px 2px #000
   font-size: 43px
+  margin-top: 55px
 
 h2
   font-size: 24px
@@ -30,10 +31,10 @@ a
     color: #900
 
 header
-  background-color: #333
+  background: #323232 url(../images/pattern2.png) repeat 0 0
   border-bottom: 10px dotted #007bc7
   overflow: hidden
-  padding: 20px 30px
+  padding: 20px 30px 10px
   margin-bottom: 20px
   h1
     color: #fff
@@ -41,10 +42,13 @@ header
       font-size: 55px
       display: block
   p
+    background-color: #111
+    border-radius: 10px
+    padding: 10px
     color: #ddd
     font-size: 16px
     line-height: 21px
-    margin-bottom: 20px
+    margin-bottom: 0
     float: left
 
 header h1, section.main
@@ -63,13 +67,18 @@ section.main
   margin: 10px 0 0 3%
   
   .posts
+    overflow: hidden
     h2
       margin-bottom: 15px
     li
       background-color: #fff
+      border-radius: 8px
       margin-bottom: 30px
       padding: 15px
       margin-right: 6%
+      img
+        float: left
+        margin-right: 15px
       p:last-child
         a
           // border: 1px solid #bbb
@@ -80,7 +89,7 @@ section.main
           // color: #444
           // padding: 5px 9px
           display: inline-block
-          margin: 15px 0 5px
+          margin: 15px 0 10px
           // &:hover
           //   text-decoration: none
           //   background-color: #f2f2f2
